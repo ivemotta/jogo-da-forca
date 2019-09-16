@@ -15,7 +15,11 @@ function verificarValor(letra){
 
 function pegarLetra(){
     let letra = caixa.value;
-    verificarValor(letra)
+    verificarValor(letra);
+    caixa.value = "";
 }
+
+
+
 
 botao.onclick = pegarLetra;
