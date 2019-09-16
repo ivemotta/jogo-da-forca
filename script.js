@@ -1,6 +1,6 @@
 let lista = document.querySelectorAll('h1');
 let caixa = document.querySelector('#caixa');
-let botao = document.querySelector('#botao');
+let botao = document.querySelector('button');
 
 function verificarValor(letra){
     for  (let h1 of lista){
@@ -18,8 +18,12 @@ function pegarLetra(){
     verificarValor(letra);
     caixa.value = "";
 }
-
-
+let enterclick = (event) =>{
+    if(event.key === 'Enter'){
+        pegarLetra();
+    }
+}
 
 
 botao.onclick = pegarLetra;
+onkeydown = enterclick;
