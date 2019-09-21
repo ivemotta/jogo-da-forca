@@ -1,9 +1,9 @@
 body{
     display: grid;
     grid-template-areas: 'header'
-                         'main';
-    grid-template-rows: 30vh 50vh;
-
+                         'main'
+                         'section';
+    grid-template-rows: 30vh 15vh 40vh;
 }
 
 header{
@@ -17,7 +17,6 @@ header div{
     height: 200px;
     background-color: black;
     justify-content: space-evenly;
-
 }
 
 h1{
@@ -30,5 +29,13 @@ h1{
 main{
     grid-area: main;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 
+.erradas{
+    grid-area: section;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
