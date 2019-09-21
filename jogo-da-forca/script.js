@@ -13,9 +13,16 @@ function verificarValor(letra){
         }
         
     }
-    
+
     if (!exist){
         alert("erro");
+    }
+
+    for (let h3 of chute){
+        if(letra == h3.innerHTML){
+            h3.style.color = 'red';
+        }
+
     }
 }   
 

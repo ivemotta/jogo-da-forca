@@ -38,6 +38,6 @@ main{
     grid-area: section;
     display: flex;
     justify-content: space-around;
-    color: blue;
+    color: white;
 }
 
