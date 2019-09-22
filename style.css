@@ -57,6 +57,7 @@ section .erradas .texto{
 
 section .erradas .texto h2{
     text-align: center;
+    /* color: black; */
 }
 
 section .erradas .letras{
