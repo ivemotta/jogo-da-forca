@@ -15,7 +15,7 @@ function verificarValor(letra){
     }
 
     if (!exist){
-        alert("erro");
+        alert("errou!")
         
     }
 
