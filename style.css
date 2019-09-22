@@ -1,4 +1,5 @@
 body{
+    background-image: url(images/images.jpg);
     display: grid;
     grid-template-areas: 'nav nav'
                          'header header'
@@ -7,6 +8,7 @@ body{
     grid-template-rows: 20vh 30vh 15vh 70vh;
     grid-template-columns: 50% 50%;
     margin: 0;
+    magin
 }
 
 header{
@@ -35,9 +37,29 @@ main{
     display: flex;
     justify-content: center;
 }
+button{
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(126, 120, 120);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13.5pt;
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+}
+input{
+    border: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 13.5pt;
+    width: 250px;
+    height: 28px;
+    }
 nav{
     align-items: center;
-    background-color: rgb(158, 17, 17);
+    background-color: rgb(119, 80, 80);
     display: flex;
     font-family: 'Anton', sans-serif;
     grid-area: nav;
@@ -73,8 +95,11 @@ section .erradas .texto{
 }
 
 section .erradas .texto h2{
+    font-family: 'Slabo 27px', serif;
+    font-size: 26px;
+    color:rgb(83, 76, 76);
     text-align: center;
-    color: black;
+
 }
 
 section .erradas .letras{
@@ -84,7 +109,8 @@ section .erradas .letras{
     justify-content: space-between;
 }
 section .erradas .letras h3{
-    color: white;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(248, 240, 238);
     font-size: 30px;
 }
 section .boneco{
