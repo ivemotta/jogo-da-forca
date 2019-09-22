@@ -39,6 +39,7 @@ nav{
     align-items: center;
     background-color: rgb(158, 17, 17);
     display: flex;
+    font-family: 'Anton', sans-serif;
     grid-area: nav;
     height: 45px;
     justify-content: center;
@@ -46,6 +47,9 @@ nav{
 }
 nav img{
     width: 35px;
+}
+nav div p{
+    color: white;
 }
 section{
     grid-area: section;
