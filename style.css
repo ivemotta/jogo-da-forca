@@ -66,7 +66,7 @@ section .erradas .letras{
     justify-content: space-between;
 }
 section .erradas .letras h3{
-    color: aqua;
+    color: white;
     font-size: 30px;
 }
 section .boneco{
