@@ -38,10 +38,11 @@ function verificarValor(letra){
     }
 
     if (!exist){
-        alert("errou!") 
+        alert("Letra errada!")
         tomara()
+        
     }
-    
+
     for (let h3 of chute){
         if(letra == h3.innerHTML){
             h3.style.color = 'red';
